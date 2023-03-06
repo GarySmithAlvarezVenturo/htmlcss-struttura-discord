@@ -4,20 +4,34 @@
     box-sizing: border-box;
 }
 
-header{
+nav.firstnav{
     height: 100px;
     background-color: rgb(188, 201, 209);
     display: flex;
     justify-content: center;
+    margin: auto;
+    
 }
 
-.nav{
-    width: 50px;
-    height: 25px;
-    background-color: yellow;
+.nav-box{
+    width: 10%;
+    height: 40%;
+    background-color: rgb(207, 154, 6);
     display: flex;
     align-self: center;
+    border: 2px dashed black ;
+    align-items: center;
+}
 
+.nav2-box{
+    width: 35%;
+    height: 40%;
+    background-color: rgb(207, 154, 6);
+    display: flex;
+    align-self: center;
+    border: 2px dashed black ;
+    align-items: center;
+    justify-content: center;
 }
 
 .container-blue{
@@ -126,3 +140,32 @@ header{
     height: 95%;
     border: 5px dashed white ;
 }
+
+nav.secnav{
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border: 2px solid white;
+}
+
+.nav4-box{
+    background-color: aqua;
+    width: 60%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav3-box{
+    background-color: red;
+    width: 40px;
+    height: 20px;
+    border: 1px dashed black;
+    
+}
+
+
+
