@@ -83,3 +83,47 @@ header{
     border: 2px dashed black ;
 }
 
+.container-black{
+    display: flex;
+    background-color: rgb(2, 2, 2);
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1px;
+    
+}
+
+.red-box{
+    background-color: red;
+    width: 20%;
+    height: 95%;
+    border: 2px dashed black ;
+}
+
+.aqua1-box{
+    background-color: aquamarine;
+    width: 10%;
+    height: 95%;
+    border: 5px dashed white ;
+}
+
+.aqua2-box{
+    background-color: aquamarine;
+    width: 10%;
+    height: 95%;
+    border: 5px dashed white ;
+}
+
+.aqua3-box{
+    background-color: aquamarine;
+    width: 10%;
+    height: 95%;
+    border: 5px dashed white ;
+}
+
+.aqua4-box{
+    background-color: aquamarine;
+    width: 10%;
+    height: 95%;
+    border: 5px dashed white ;
+}
